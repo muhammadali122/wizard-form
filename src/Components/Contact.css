@@ -1,0 +1,40 @@
+
+.contact-container{
+  height: 90vh;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+label {
+  position: relative;
+}
+
+label::before {
+  content: "";
+  background: url("./icons8_checked_checkbox_50px_2.png");
+  border-radius: 5px;
+  background-position: center;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: -33px;
+  top: 0px;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+input[type="checkbox"]:checked + label::before {
+  transform: scale(1) ;
+}
+
+.form-check {
+  cursor: pointer;
+  position: relative;
+  border: 2px solid #d8d7df;
+}
+.form-check-label {
+  cursor: pointer;
+  padding-right: 85%;
+  inset: 0;
+}

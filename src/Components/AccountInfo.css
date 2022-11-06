@@ -1,0 +1,67 @@
+.account-container{
+  height: 90vh;
+}
+
+header p {
+  padding-top: 20px;
+}
+.accountHead {
+  margin-top: -20px;
+}
+
+/* main CSS */
+.profile-img {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+}
+
+.main-btn {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.main-btn:hover {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+form i {
+  margin-left: -40px;
+  cursor: pointer;
+}
+.password-validation {
+  opacity: 0.8;
+}
+.password-validation span {
+  margin-left: 30px;
+}
+.icon-x {
+  opacity: 0;
+}
+.icon-check {
+  opacity: 1;
+}
+.password-validation .bi {
+  position: absolute;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+}
+.password-validation p{
+    margin-top: -15px;
+}
+footer{
+    margin-top: auto;
+    position: sticky;
+    bottom: 0;
+    overflow: hidden;
+}
+footer .progress{
+    margin-top: -12px;
+}
+.progress-title{
+    margin-top: -5px;
+}
+footer a{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+footer a:hover{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
