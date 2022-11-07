@@ -8,20 +8,20 @@ function Contact() {
       <div className='container contact-container'>
         <section>
           <div className="row justify-content-center ">
-            <div className="col-12 col-md-8 px-4">
+            <div className="col-12 col-md-8 ">
               <p className="fw-light text-secondary d-none d-md-block">Step 3</p>
               <p className="fw-light text-secondary d-block d-md-none">Step 3 of 3</p>
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-12 col-md-8 px-4">
+            <div className="col-12 col-md-8">
               <h2 className="fw-bold accountHead">Contact</h2>
             </div>
           </div>
         </section>
         <main>
           <div className="row justify-content-center">
-            <div className="col-12 col-md-8 px-4">
+            <div className="col-12 col-md-8 ">
               <p className='fw-light text-secondary mt-4'>Select a Contact method:</p>
             </div>
           </div>
@@ -53,7 +53,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center my-2">
+          <div className="row justify-content-center ">
             <div className="col-12 col-md-8 px-0">
               <div className="form-check p-3   rounded " >
                 <input
